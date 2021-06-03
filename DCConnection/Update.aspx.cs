@@ -38,7 +38,10 @@ namespace DCConnection
 
                 
             }
-            catch (Exception ex) { }
+            catch (Exception ex)
+            {
+                lblmsg1.Text = "Data Has been Failed";
+            }
         }
     }
 }
