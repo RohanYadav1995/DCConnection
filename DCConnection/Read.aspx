@@ -2,13 +2,13 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
+        <h1>WeFiveSoft</h1>
         
     </div>
     <table>  
     <tr>  
         <td>  
-            <h1>Selection</h1>  
+            <h1>Select</h1>  
         </td>  
     </tr>  
     <tr>  
