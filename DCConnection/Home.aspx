@@ -9,7 +9,7 @@
     <table>  
     <tr>  
         <td colspan="2">  
-            <h1>Insertion</h1>  
+            <h1>Insertion create</h1>  
         </td>  
     </tr>  
     <tr>  
