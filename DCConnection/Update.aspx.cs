@@ -20,7 +20,7 @@ namespace DCConnection
                     connection.Open();
                     NpgsqlCommand cmd = new NpgsqlCommand();
                     cmd.Connection = connection;
-                    cmd.CommandText = "update employee set firstname=@Fname,lastname=@Lname,emailid=@Email where id=@ID";
+                    cmd.CommandText = "update employee set firstname=@Fname,lastname=@Lname,email=@Email where id=@ID";
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.Add(new NpgsqlParameter("@ID", Convert.ToInt32(txtEmpID.Text)));
                     cmd.Parameters.Add(new NpgsqlParameter("@Fname", txtEmpFname.Text));
