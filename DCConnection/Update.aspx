@@ -2,13 +2,15 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
-        <h1>ASP.NET</h1>
+        <h1>WeFiveSoft</h1>
         
     </div>
     <table>  
     <tr>  
         <td colspan="2">  
-            <h1>Updation</h1>  
+            <h1>Updation</h1>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>  
         </td>  
     </tr>  
     <tr>  
@@ -41,8 +43,8 @@
     </tr>  
     <tr>  
         <td colspan="2"> 
-            <asp:Button ID="btnUpdation" runat="server" Text="Update" OnClick="btnUpdation_Click" />  
-            <asp:Label ID="lblmsg1" runat="server" ForeColor="Red"></asp:Label>  
+            <asp:Button ID="btnUpdation" runat="server" Text="Update" OnClick="btnUpdation_Click" BackColor="#33CC33" BorderColor="#33CC33" BorderStyle="Double" ForeColor="White" />  
+            <asp:Label ID="lblmsg1" runat="server" ForeColor="Green"></asp:Label>  
         </td>  
     </tr>  
 </table>

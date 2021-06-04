@@ -3,13 +3,12 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>Welcome to WeFiveSoft</h1>
-        
+        <h1 style ="color:black; font-size:25px; width: 384px;">Welcome to WeFiveSoft</h1> 
     </div>
     <table>  
     <tr>  
         <td colspan="2">  
-            <h1>Insertion create</h1>  
+            <h1 style="width: 301px">Insertion create</h1>  
         </td>  
     </tr>  
     <tr>  
@@ -42,8 +41,8 @@
     </tr>  
     <tr>  
         <td colspan="2">  
-            <asp:Button ID="btnInsertion" runat="server" Text="Insert" OnClick="btnInsertion_Click" Style="width: 48px" />  
-            <asp:Label ID="lblmsg" runat="server" ForeColor="Red"></asp:Label>  
+            <asp:Button ID="btnInsertion" ForeColor="RoyalBlue" runat="server" Text="Submit" OnClick="btnInsertion_Click" Style="width: 68px" />  
+            <asp:Label ID="lblmsg" runat="server" ForeColor="Green"></asp:Label>  
         </td>  
     </tr>  
 </table>

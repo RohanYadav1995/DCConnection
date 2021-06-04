@@ -1265,6 +1265,7 @@ h6 .small,
 h1,
 .h1 {
   font-size: 36px;
+    width: 210px;
 }
 h2,
 .h2 {
@@ -2348,6 +2349,7 @@ pre code {
 }
 table {
   background-color: transparent;
+    margin-top: 0px;
 }
 table col[class*="col-"] {
   position: static;
